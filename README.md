@@ -4,6 +4,9 @@ redis-tools 是一个 Redis 成本优化工程沉淀的工具集，包含了 Red
 > 项目基于 spring-boot 开发，通过 Apollo 实现配置动态更新下发，将每个工具功能封装为一个 job ，然后通过 XXL-JOB 实现任务调度运行.
 
 > 请确保了解清楚每个 job 的逻辑，再进行使用，避免误操作导致数据丢失等问题。
+
+本项目工具结合[ 《Redis 成本优化指南，实现 45% 的成本下降》 ](https://my.oschina.net/klblog/blog/11572308)使用更佳
+
 ## 工具集
 
 <img src="doc/img.png"/>
